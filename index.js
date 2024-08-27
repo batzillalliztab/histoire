@@ -8,7 +8,7 @@ const OLDEST_ERA = 1538000000;
 const CURRENT_ERA_END = computeEra(Math.floor(Date.now() / 1000) + ERA_SECONDS);
 const CURRENT_ERA_START = CURRENT_ERA_END - ERA_SECONDS;
 
-const BASE_REPO = "robotzilla/histoire";
+const BASE_REPO = "batzillalliztab/histoire";
 
 const ALL_USERS = "*";
 
@@ -74,7 +74,7 @@ on several lines!`,
 const KNOWN_REPOS_OWNERS = {
     "binjs-ref": "binast",
     cranelift: "cranestation",
-    histoire: "robotzilla",
+    histoire: "batzillalliztab",
     "rust-frontend": "mozilla-spidermonkey",
     jsparagus: "mozilla-spidermonkey",
 };
